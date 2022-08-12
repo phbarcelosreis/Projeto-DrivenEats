@@ -86,7 +86,7 @@ main{
 
 }
 
-.caixa-pedidos{
+.caixapedidos1{
     box-sizing: border-box;
     height: 100%;
     width: 172px;
@@ -94,8 +94,139 @@ main{
     padding: 14px 18px 14px 13px;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px;
-    
+    border-radius: 9px; 
+}
+
+.caixapedidos2{
+    box-sizing: border-box;
+    height: 100%;
+    width: 172px;
+    margin-right: 16px;
+    padding: 14px 18px 14px 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px; 
+}
+
+.caixapedidos3{
+    box-sizing: border-box;
+    height: 100%;
+    width: 172px;
+    margin-right: 16px;
+    padding: 14px 18px 14px 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px; 
+}
+
+.caixapedidos4{
+    box-sizing: border-box;
+    height: 100%;
+    width: 172px;
+    margin-right: 16px;
+    padding: 14px 18px 14px 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px; 
+}
+
+.caixapedidos5{
+    box-sizing: border-box;
+    height: 100%;
+    width: 172px;
+    margin-right: 16px;
+    padding: 14px 18px 14px 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px; 
+}
+
+.caixapedidos6{
+    box-sizing: border-box;
+    height: 100%;
+    width: 172px;
+    margin-right: 16px;
+    padding: 14px 18px 14px 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px; 
+}
+
+.caixapedidos7{
+    box-sizing: border-box;
+    height: 100%;
+    width: 172px;
+    margin-right: 16px;
+    padding: 14px 18px 14px 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px; 
+}
+
+.caixapedidos8{
+    box-sizing: border-box;
+    height: 100%;
+    width: 172px;
+    margin-right: 16px;
+    padding: 14px 18px 14px 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px; 
+}
+
+.caixapedidos9{
+    box-sizing: border-box;
+    height: 100%;
+    width: 172px;
+    margin-right: 16px;
+    padding: 14px 18px 14px 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px; 
+}
+
+.caixapedidos10{
+    box-sizing: border-box;
+    height: 100%;
+    width: 172px;
+    margin-right: 16px;
+    padding: 14px 18px 14px 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px; 
+}
+
+.caixapedidos11{
+    box-sizing: border-box;
+    height: 100%;
+    width: 172px;
+    margin-right: 16px;
+    padding: 14px 18px 14px 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px; 
+}
+
+.caixapedidos12{
+    box-sizing: border-box;
+    height: 100%;
+    width: 172px;
+    margin-right: 16px;
+    padding: 14px 18px 14px 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px; 
+}
+
+.caixapedidos13{
+    box-sizing: border-box;
+    height: 100%;
+    width: 172px;
+    margin-right: 16px;
+    padding: 14px 18px 14px 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px; 
 }
 
 .título-comida{
@@ -164,5 +295,20 @@ main{
     text-align: center;
     letter-spacing: 0.018em;
     color: #FFFFFF;
+}
+
+.selecionado{
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+    border-radius: 9px
+}
+
+.selecionado1{
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+    border-radius: 9px
+}
+
+.selecionado2{
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+    border-radius: 9px
 }
 
