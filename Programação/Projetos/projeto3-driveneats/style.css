@@ -5,12 +5,14 @@
     }
 
 .layout-app{
+    display: flex;
+    flex-direction: column;
     font-style: normal;
     font-family: 'Righteous', cursive;
-    margin: 0 auto;
+    margin: auto;
     width: 414px;
     height: 1026px;
-    background: #EEEEEE
+    background: #EEEEEE;
 }
 
 .parte-cima{
