@@ -2,6 +2,8 @@ let caixapedidos
 let caixapedidos1
 let caixapedidos2
 let textof
+let cordif
+let pratoselecionado
 
 
 function selecionar(num) {
@@ -45,7 +47,7 @@ function selecionar2(num) {
     const caixapedidos2 = document.querySelector(num);
     const findbutton = document.querySelector(".button2"+num);
     const buttonon = document.querySelector(".mostrar2");
-    
+
     if(pintar2 !== null){
         pintar2.classList.remove('selecionado2');
     }
@@ -53,17 +55,20 @@ function selecionar2(num) {
         buttonon.classList.remove('mostrar2');
     }
     
-
+    //pratoselecionado = pintar2
     caixapedidos2.classList.add("selecionado2");
     findbutton.classList.add("mostrar2");
 }
 
 function final(num){
-    const cordif = document.querySelector('texto-final')
-    const cor = document.querySelector('pedido-concluido')
-    const aplicar = document.querySelector(num)
+    const pintar = document.querySelector(".selecionado");
+    const pintar1 = document.querySelector(".selecionado1");
+    const pintar2 = document.querySelector(".selecionado2");
+    cordif = document.querySelector('.texto-final');
 
-    cordif.classList.add(aplicar)
+    if(pintar !== null && pintar1 !== null && pintar2 !== null){
+        cordif.classList.add('pedido-concluido')
+    }
 }
 
 
