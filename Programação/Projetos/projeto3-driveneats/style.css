@@ -185,7 +185,7 @@ main{
     display: none;
 }
 
-.botao2{
+.button2{
     width: 19px;
     height: 19px;
     color:#32B72F;
@@ -217,6 +217,10 @@ main{
 
 .mostrar2{
     display: block;
+}
+
+.pedido-concluido{
+    background: #32B72F;
 }
 
 

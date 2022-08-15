@@ -1,3 +1,8 @@
+let caixapedidos
+let caixapedidos1
+let caixapedidos2
+let textof
+
 
 function selecionar(num) {
     const pintar = document.querySelector(".selecionado");
@@ -19,7 +24,7 @@ function selecionar(num) {
 
 function selecionar1(num) {
     const pintar1 = document.querySelector(".selecionado1");
-    const caixapedidos = document.querySelector(num);
+    const caixapedidos1 = document.querySelector(num);
     const findbutton = document.querySelector(".button"+num);
     const buttonon = document.querySelector(".mostrar1");
     
@@ -31,14 +36,14 @@ function selecionar1(num) {
     }
     
 
-    caixapedidos.classList.add("selecionado1");
+    caixapedidos1.classList.add("selecionado1");
     findbutton.classList.add("mostrar1");
 }
 
 function selecionar2(num) {
     const pintar2 = document.querySelector(".selecionado2");
-    const caixapedidos = document.querySelector(num);
-    const findbutton = document.querySelector(".button"+num);
+    const caixapedidos2 = document.querySelector(num);
+    const findbutton = document.querySelector(".button2"+num);
     const buttonon = document.querySelector(".mostrar2");
     
     if(pintar2 !== null){
@@ -49,7 +54,16 @@ function selecionar2(num) {
     }
     
 
-    caixapedidos.classList.add("selecionado2");
+    caixapedidos2.classList.add("selecionado2");
     findbutton.classList.add("mostrar2");
 }
+
+function final(num){
+    const cordif = document.querySelector('texto-final')
+    const cor = document.querySelector('pedido-concluido')
+    const aplicar = document.querySelector(num)
+
+    cordif.classList.add(aplicar)
+}
+
 
