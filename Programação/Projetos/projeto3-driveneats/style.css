@@ -15,6 +15,7 @@
 }
 
 .parte-cima{
+    z-index: 1;
     position: fixed;
     box-sizing: border-box;
     width: 414px;
@@ -86,7 +87,7 @@ main{
 
 }
 
-.caixapedidos1{
+.caixapedidos{
     box-sizing: border-box;
     height: 100%;
     width: 172px;
@@ -95,138 +96,7 @@ main{
     background: #FFFFFF;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px; 
-}
-
-.caixapedidos2{
-    box-sizing: border-box;
-    height: 100%;
-    width: 172px;
-    margin-right: 16px;
-    padding: 14px 18px 14px 13px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px; 
-}
-
-.caixapedidos3{
-    box-sizing: border-box;
-    height: 100%;
-    width: 172px;
-    margin-right: 16px;
-    padding: 14px 18px 14px 13px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px; 
-}
-
-.caixapedidos4{
-    box-sizing: border-box;
-    height: 100%;
-    width: 172px;
-    margin-right: 16px;
-    padding: 14px 18px 14px 13px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px; 
-}
-
-.caixapedidos5{
-    box-sizing: border-box;
-    height: 100%;
-    width: 172px;
-    margin-right: 16px;
-    padding: 14px 18px 14px 13px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px; 
-}
-
-.caixapedidos6{
-    box-sizing: border-box;
-    height: 100%;
-    width: 172px;
-    margin-right: 16px;
-    padding: 14px 18px 14px 13px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px; 
-}
-
-.caixapedidos7{
-    box-sizing: border-box;
-    height: 100%;
-    width: 172px;
-    margin-right: 16px;
-    padding: 14px 18px 14px 13px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px; 
-}
-
-.caixapedidos8{
-    box-sizing: border-box;
-    height: 100%;
-    width: 172px;
-    margin-right: 16px;
-    padding: 14px 18px 14px 13px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px; 
-}
-
-.caixapedidos9{
-    box-sizing: border-box;
-    height: 100%;
-    width: 172px;
-    margin-right: 16px;
-    padding: 14px 18px 14px 13px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px; 
-}
-
-.caixapedidos10{
-    box-sizing: border-box;
-    height: 100%;
-    width: 172px;
-    margin-right: 16px;
-    padding: 14px 18px 14px 13px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px; 
-}
-
-.caixapedidos11{
-    box-sizing: border-box;
-    height: 100%;
-    width: 172px;
-    margin-right: 16px;
-    padding: 14px 18px 14px 13px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px; 
-}
-
-.caixapedidos12{
-    box-sizing: border-box;
-    height: 100%;
-    width: 172px;
-    margin-right: 16px;
-    padding: 14px 18px 14px 13px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px; 
-}
-
-.caixapedidos13{
-    box-sizing: border-box;
-    height: 100%;
-    width: 172px;
-    margin-right: 16px;
-    padding: 14px 18px 14px 13px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px; 
+    
 }
 
 .título-comida{
@@ -254,8 +124,6 @@ main{
 }
 
 .preço-comida{
-    width: 66px;
-    height: 19px;
     margin-top: 5px;
     font-family: 'Roboto';
     font-style: normal;
@@ -297,6 +165,33 @@ main{
     color: #FFFFFF;
 }
 
+.descricao-verificado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botao{
+    width: 19px;
+    height: 19px;
+    color:#32B72F;
+    display: none;
+}
+
+.button{
+    width: 19px;
+    height: 19px;
+    color:#32B72F;
+    display: none;
+}
+
+.botao2{
+    width: 19px;
+    height: 19px;
+    color:#32B72F;
+    display: none;
+}
+
 .selecionado{
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
     border-radius: 9px
@@ -311,4 +206,19 @@ main{
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
     border-radius: 9px
 }
+
+.mostrar{
+    display: block;
+}
+
+.mostrar1{
+    display: block;
+}
+
+.mostrar2{
+    display: block;
+}
+
+
+
 
