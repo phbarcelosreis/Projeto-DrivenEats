@@ -102,7 +102,7 @@ function criarCartas(personagensRandom){
     const frente = criarElemento('div', 'face front');
     const atras = criarElemento('div', 'face back');
 
-    frente.style.backgroundImage = `url('../Imagens/${personagensRandom}.gif')`;
+    frente.style.backgroundImage = `url('./Imagens/${personagensRandom}.gif')`;
 
     carta.appendChild(frente);
     carta.appendChild(atras);
